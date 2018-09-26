@@ -50,7 +50,7 @@ echo "##############"
 echo " "
 sudo add-apt-repository ppa:ondrej/php
 sudo apt-get update
-sudo apt-get install php7.0
+sudo apt-get install php7.2
 
 echo " "
 echo "##############"
@@ -58,13 +58,13 @@ echo "INSTALLING PHP Important Extensions"
 echo "##############"
 echo " "
 
-sudo apt-get install php7.0-mcrypt
-sudo apt-get install php7.0-curl
-sudo apt-get install php7.0-zip
-sudo apt-get install php7.0-dom
-sudo apt-get install php7.0-gd
-sudo apt-get install php7.0-intl
-sudo apt-get install php7.0-mbstring
+sudo apt-get install php7.2-mcrypt
+sudo apt-get install php7.2-curl
+sudo apt-get install php7.2-zip
+sudo apt-get install php7.2-dom
+sudo apt-get install php7.2-gd
+sudo apt-get install php7.2-intl
+sudo apt-get install php7.2-mbstring
 
 
 echo " "
@@ -74,7 +74,7 @@ echo "#########################"
 echo " "
 sudo apt-get install mysql-server libapache2-mod-auth-mysql -y
 
-sudo sudo apt-get install php7.0-mysql -y
+sudo sudo apt-get install php7.2-mysql -y
 
 sudo mysql_install_db
 
